@@ -5,31 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome Page</title>
 </head>
-<body>
-    <form action="/register" method="post">
-        Name: <input type="text" name="username"><br><br>
-        Password: <input type="password" name="password"><br><br>
-        Age: <input type="text" name="age"><br><br>
-        Mobile Number: <input type="tel" name="number"><br><br>
-        Email: <input type="email" name="email"><br><br>
-        Gender: 
-        <input type="radio" name="gender" value="Male">Male
-        <input type="radio" name="gender" value="Female">Female
-        <br><br>
-        State:
-        <select name="state">
-            <option value="Tamilnadu">Tamilnadu</option>
-            <option value="Andhra">AndhraPradesh</option>
-            <option value="Kerala">Kerala</option>
-        </select>
-        <br><br>
-        Skills:
-        <input type="checkbox" name="skills" value="Java">Java
-        <input type="checkbox" name="skills" value="Python">Python
-        <input type="checkbox" name="skills" value="C++">C++
-        <input type="checkbox" name="skills" value="Javascript">Java Script
-        <br><br>
-        <button type="submit">Sign Up</button>
-    </form>
+<body style="color: blue;">
+    <h1 align="center">User Registeration Form</h1>
+    <div align="center">
+        <form action="/register" method="post">
+            Name: <input type="text" name="username"><br><br>
+            Password: <input type="password" name="password"><br><br>
+            Age: <input type="text" name="age"><br><br>
+            Mobile Number: <input type="tel" name="number"><br><br>
+            Email: <input type="email" name="email"><br><br>
+            Gender: 
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Female">Female
+            <br><br>
+            State:
+            <select name="state">
+                <option value="Tamil nadu">Tamil Nadu</option>
+                <option value="Andhra">Andhra Pradesh</option>
+                <option value="Kerala">Kerala</option>
+            </select>
+            <br><br>
+            Skills:
+            <input type="checkbox" name="skills1" value="Java">Java
+            <input type="checkbox" name="skills2" value="Python">Python
+            <input type="checkbox" name="skills3" value="C++">C++
+            <input type="checkbox" name="skills4" value="Javascript">Java Script
+            <br><br>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
 </body>
 </html>
